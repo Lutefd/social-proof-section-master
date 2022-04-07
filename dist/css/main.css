@@ -121,4 +121,22 @@ h1 {
   max-width: 70rem;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
+.ratings li {
+  background: var(--clr-neutral-2);
+  color: var(--clr-primary-7);
+  font-weight: 700;
+  padding: 0.5rem;
+}
+.ratings li .flex-stars {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  justify-content: space-around;
+  max-width: 100px;
 }/*# sourceMappingURL=main.css.map */

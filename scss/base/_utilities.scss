@@ -3,3 +3,6 @@
   margin: 0 auto;
   padding: 0 2rem;
 }
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1rem);
+}

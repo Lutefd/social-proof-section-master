@@ -1,0 +1,15 @@
+.ratings {
+  li {
+    background: var(--clr-neutral-2);
+    color: var(--clr-primary-7);
+    font-weight: 700;
+    padding: 0.5rem;
+    .flex-stars {
+      display: flex;
+      margin: 0 auto;
+      margin-bottom: 0.5rem;
+      justify-content: space-around;
+      max-width: 100px;
+    }
+  }
+}
