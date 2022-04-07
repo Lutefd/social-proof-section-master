@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
 body {
+  background-position: top left, bottom right;
+  min-height: 100vh;
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
   padding-top: 5rem;
   text-align: center;
+  background-image: url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: max(50%, 400px);
+}
+.container {
+  width: min(90%, 1170px);
 }
 h1 {
   font-size: var(--fs-700);
@@ -10,7 +21,7 @@ h1 {
   color: var(--clr-primary-7);
   line-height: 1;
   max-width: 12ch;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   @media (max-width: 50em) {
     margin-inline: auto;
   }
