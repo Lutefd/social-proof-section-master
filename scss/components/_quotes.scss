@@ -1,5 +1,13 @@
 .quotes {
   --spacer: 2rem;
+  li {
+    &:nth-child(2) {
+      transform: translateY(3rem);
+    }
+    &:nth-child(3) {
+      transform: translateY(6rem);
+    }
+  }
   blockquote {
     background: var(--clr-primary-7);
     color: var(--clr-neutral-2);
