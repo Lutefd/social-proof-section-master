@@ -1,3 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
-@import 'base/root', 'base/reset', 'base/global', 'base/layout',
-  'base/utilities', 'components/quotes', 'components/ratings';
+@use 'base/root';
+@use 'base/reset';
+@use 'base/global';
+@use 'base/layout';
+@use 'base/utilities';
+@use 'components/quotes';
+@use 'components/ratings';
