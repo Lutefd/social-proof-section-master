@@ -1,8 +1,11 @@
 .quotes {
   --spacer: 2rem;
   li {
-    &:nth-child(2) {
+    &:nth-child(1) {
       transform: translateY(3rem);
+    }
+    &:nth-child(2) {
+      transform: translateY(4.5rem);
     }
     &:nth-child(3) {
       transform: translateY(6rem);
