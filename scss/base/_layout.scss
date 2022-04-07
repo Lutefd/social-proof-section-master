@@ -1,14 +1,15 @@
 main {
   display: grid;
-  gap: 3rem;
+  gap: 3rem 1rem;
   @media (min-width: 50em) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1.5fr;
     text-align: left;
     .heading {
       grid-column: 1 / 2;
     }
     .ratings {
       grid-column: 2 / 3;
+      align-self: center;
     }
 
     .quotes {
