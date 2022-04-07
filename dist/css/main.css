@@ -133,7 +133,7 @@ h1 {
 
 main {
   display: grid;
-  gap: 5rem 8rem;
+  gap: 5rem 4.9rem;
 }
 @media (min-width: 50em) {
   main {
