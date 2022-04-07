@@ -21,7 +21,7 @@ h1 {
   color: var(--clr-primary-7);
   line-height: 1;
   max-width: 12ch;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   @media (max-width: 50em) {
     margin-inline: auto;
   }
