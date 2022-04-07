@@ -1,6 +1,6 @@
 main {
   display: grid;
-  gap: 3rem 1rem;
+  gap: 5rem 8rem;
   @media (min-width: 50em) {
     grid-template-columns: 1fr 1.5fr;
     text-align: left;
