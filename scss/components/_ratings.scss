@@ -3,7 +3,10 @@
     background: var(--clr-neutral-2);
     color: var(--clr-primary-7);
     font-weight: 700;
+    max-width: 28rem;
     padding: 0.5rem;
+    border-radius: var(--radius);
+    margin-inline: auto;
     .flex-stars {
       display: flex;
       margin: 0 auto;
