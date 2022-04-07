@@ -127,11 +127,13 @@ h1 {
 
 .subtitle {
   font-size: var(--fs-500);
+  color: var(--clr-neutral-1);
+  font-weight: 500;
 }
 
 main {
   display: grid;
-  gap: 3rem 1rem;
+  gap: 5rem 8rem;
 }
 @media (min-width: 50em) {
   main {
@@ -178,8 +180,11 @@ main {
 .quotes {
   --spacer: 2rem;
 }
-.quotes li:nth-child(2) {
+.quotes li:nth-child(1) {
   transform: translateY(3rem);
+}
+.quotes li:nth-child(2) {
+  transform: translateY(4.5rem);
 }
 .quotes li:nth-child(3) {
   transform: translateY(6rem);
@@ -226,7 +231,7 @@ main {
   color: var(--clr-primary-7);
   font-weight: 700;
   max-width: 28rem;
-  padding: 0.75rem 2rem;
+  padding: 1.25rem 2rem;
   border-radius: var(--radius);
   margin-inline: auto;
 }
@@ -235,14 +240,11 @@ main {
     display: flex;
     align-items: center;
   }
-  .ratings li::before {
-    margin: 0 1.5rem 0 0;
-  }
-  .ratings li:first-of-type {
-    margin-left: 3rem;
+  .ratings li:nth-child(2) {
+    transform: translateX(3rem);
   }
   .ratings li:last-of-type {
-    margin-right: 3rem;
+    transform: translateX(6rem);
   }
   .ratings li .flex-stars {
     margin-right: 1.25rem;
