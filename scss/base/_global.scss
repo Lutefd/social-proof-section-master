@@ -11,8 +11,9 @@ h1 {
   line-height: 1;
   max-width: 12ch;
   margin-bottom: 1em;
-  margin-right: auto;
-  margin-left: auto;
+  @media (max-width: 50em) {
+    margin-inline: auto;
+  }
 }
 .subtitle {
   font-size: var(--fs-500);
