@@ -6,3 +6,9 @@
 .flow-content > * + * {
   margin-top: var(--flow-space, 1rem);
 }
+.flex-title {
+  display: flex;
+}
+.aligner {
+  align-items: center;
+}
