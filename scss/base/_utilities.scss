@@ -8,15 +8,13 @@
 }
 .wrap {
   flex-direction: column;
+
   display: flex;
   gap: 1em;
   @media (min-width: 50em) {
-    display: flex;
-    gap: 1em;
     flex-direction: row;
   }
 }
-
 .aligner {
   align-items: center;
 }
